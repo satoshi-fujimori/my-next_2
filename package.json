@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "vercel-build": "prisma generate && next build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -14,6 +15,7 @@
     "@mui/icons-material": "^5.14.16",
     "@mui/material": "^5.14.17",
     "@prisma/client": "^5.5.2",
+    "@vercel/postgres": "^0.5.1",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18"
